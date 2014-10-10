@@ -14,7 +14,7 @@
     </parent>
 
     <properties>
-        <mainClass>de.holisticon.dropwizard.example.scala.ExampleApplication</mainClass>
+        <mainClass>de.holisticon.dropwizard.example.api.ScalaExampleApplication</mainClass>
     </properties>
 
     <dependencies>

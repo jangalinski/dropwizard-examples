@@ -1,4 +1,4 @@
-package de.holisticon.dropwizard.example.scala;
+package de.holisticon.dropwizard.example;
 
 
 import io.dropwizard.Application;

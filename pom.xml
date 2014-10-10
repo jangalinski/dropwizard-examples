@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>dropwizard-example-interface</module>
         <module>dropwizard-example-scala</module>
         <module>dropwizard-example-simple</module>
     </modules>
@@ -33,6 +34,11 @@
         <dependency>
             <groupId>io.dropwizard</groupId>
             <artifactId>dropwizard-core</artifactId>
+            <version>${dropwizard.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.dropwizard</groupId>
+            <artifactId>dropwizard-testing</artifactId>
             <version>${dropwizard.version}</version>
         </dependency>
     </dependencies>
